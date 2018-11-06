@@ -6,14 +6,23 @@
 
 body {
     background-image: url("mountains.jpg");
-}
+    background-size: 100%;
+    background-repeat: no-repeat;
+    }
 
 h1{
   font-size: 50px;
 }
 
+h3{
+  font-size: 40px;
+}
 p{
   font-size: 35px;
+}
+
+hr{
+  margin-top: 20px;
 }
 .menu-container {
   display: flex;
@@ -49,6 +58,7 @@ p{
   display: flex;
   justify-content: center;
   margin-top: 150px;
+  margin-bottom: 600px;
  
 }
 
@@ -76,11 +86,26 @@ p{
     font-size: 16px;
     border-radius: 4px;
 }
+.tussentekst-container{
+  color: #000000;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  width: 80%;
+  margin-left: 10%;
+}
 
+.tussentekst{
+
+  text-align: center;
+ 
+}
 .row {
   display: flex;
   flex-wrap: wrap;
   padding: 0 4px;
+  justify-content: center;
 }
 
 /* Create four equal columns that sits next to each other */
